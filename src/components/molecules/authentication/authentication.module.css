@@ -1,0 +1,65 @@
+.div-title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.div-title img{
+    width: 100px;
+    height: 100px;
+}
+.div-title h1{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+}
+.form .label-form{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    margin-bottom: 7px;
+}
+.form .input-form{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #02151a;
+    color: #ffffff;
+    font-size:1rem;
+}
+
+
+
+.button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5c518;
+    color: #02151a;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+
+    transition:  .2s ;
+}
+
+
+
+
+

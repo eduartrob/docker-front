@@ -1,0 +1,34 @@
+.section-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #02151a;
+}
+
+.section-login .container-login{
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(253, 253, 253, 0.070);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.section-login .container-login .extra-button:hover{
+    background-color: #ffdc5ffd;
+    box-shadow: 0 0 5px #fff3c6;
+}
+
+.section-login .container-login .text-redirec-register{
+  margin-top: 10px;
+  color: white;
+  font-size: .9em;
+}
+.section-login .container-login .text-redirec-register a{
+  color: #ffdc5f;
+  text-decoration: none;
+}
+

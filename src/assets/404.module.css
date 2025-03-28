@@ -1,0 +1,31 @@
+.section-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: #02151a;
+    color: white;
+}
+.section-404 .container-404{
+    margin-top: -400px;
+    width: auto;
+    height: auto; 
+    padding: 20px;
+}
+.container-404 a{
+    color: #ffdc5ffd;
+
+}
+.section-404 h1{
+    font-size: 5em;
+}
+.section-404 .notFound{
+    font-size: 3em;
+    margin-left: 50px;
+    margin-bottom: 10px
+}
+.section-404 .notFound-text{
+    font-size: 1.5em;
+    margin-left: 100px;
+}
