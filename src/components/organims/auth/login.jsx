@@ -21,7 +21,7 @@ export default function OrgnLogin() {
         }
 
         try {
-            const response = await fetch("http://localhost:3050/api/login", {
+            const response = await fetch("http://3.216.152.229:3050/api/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
